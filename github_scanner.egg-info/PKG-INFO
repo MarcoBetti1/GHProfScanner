@@ -48,6 +48,7 @@ Adjust `config/settings.yaml` to tweak behavior:
 - `modes.owned_repos_only`: when `true`, limit analysis to repositories owned by the profile.
 - `llm.*`: provider metadata (currently optimized for OpenAI).
 - `output.directory`: destination folder for generated reports.
+- `output.show_repo_tables`: when `true`, include a detail table per repository; set to `false` for narrative-only entries.
 
 Override any setting from the CLI:
 ```powershell

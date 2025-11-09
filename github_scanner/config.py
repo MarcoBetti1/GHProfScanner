@@ -30,6 +30,7 @@ class LLMConfig:
 class OutputConfig:
     directory: Path = Path("reports")
     format: str = "markdown"
+    show_repo_tables: bool = True
 
 
 @dataclass(slots=True)
@@ -67,6 +68,7 @@ def load_config(path: Optional[Path] = None) -> AppConfig:
         output=OutputConfig(
             directory=Path(output_raw.get("directory", "reports")),
             format=str(output_raw.get("format", "markdown")),
+            show_repo_tables=bool(output_raw.get("show_repo_tables", True)),
         ),
     )
 

@@ -13,3 +13,4 @@ llm:
 output:
   directory: reports
   format: markdown
+  show_repo_tables: false
