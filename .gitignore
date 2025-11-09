@@ -1,0 +1,9 @@
+.env
+
+reports/
+
+.venv/
+
+*/__pycache__/
+
+build/

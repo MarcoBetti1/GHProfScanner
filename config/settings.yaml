@@ -1,0 +1,15 @@
+modes:
+  docs_only: true
+  owned_repos_only: true
+
+llm:
+  provider: openai
+  model: gpt-4o-mini
+  temperature: 0.2
+  max_output_tokens: 1200
+  api_key_env: OPENAI_API_KEY
+  organization: null
+
+output:
+  directory: reports
+  format: markdown

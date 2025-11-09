@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+github_scanner/__init__.py
+github_scanner/cli.py
+github_scanner/config.py
+github_scanner/github_api.py
+github_scanner/llm.py
+github_scanner/models.py
+github_scanner/report.py
+github_scanner/scraper.py
+github_scanner.egg-info/PKG-INFO
+github_scanner.egg-info/SOURCES.txt
+github_scanner.egg-info/dependency_links.txt
+github_scanner.egg-info/entry_points.txt
+github_scanner.egg-info/requires.txt
+github_scanner.egg-info/top_level.txt
+tests/test_config.py

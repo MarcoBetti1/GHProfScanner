@@ -1,0 +1,2 @@
+[console_scripts]
+github-scanner = github_scanner.cli:app
